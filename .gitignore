@@ -1,0 +1,28 @@
+# Virtual environments
+venv/
+backend/venv/
+ENV/
+env/
+
+# Python cache & compiled files
+__pycache__/
+backend/__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment variables & secrets
+.env
+backend/.env
+*.env.local
+
+# Generated reports & PDF files
+backend/*.pdf
+*.pdf
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDE & Editor configs
+.vscode/
+.idea/
